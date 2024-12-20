@@ -1,0 +1,606 @@
+/* SEC2 */
+.sec2 h1 {
+  font-size: 120px;
+  font-weight: 500;
+  line-height: 160.96px;
+  width: 100%;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.sec2 p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 42.12px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.sec2 button {
+  background-color: black;
+  width: 30%;
+  height: 15%;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.img2 {
+  width: 100%;
+  height: 100%;
+  top: 374px;
+  left: 772px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+}
+.project2 {
+  position: relative;
+  top: 150px;
+
+  /* width: 699px; */
+}
+.project2 h4 {
+  font-size: 18px;
+  color: #545454;
+}
+.project2 h2 {
+  color: #545454;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+/* SEC3 */
+.sec3 {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.sec3 h1 {
+  font-size: 58px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  line-height: 70.19px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.sec3 h1 .line {
+  color: black;
+  background-color: black; /* لون الخط */
+  height: 3px;
+  margin: 35px 0;
+  width: 8%;
+}
+.sec3 h2 {
+  font-size: 20px;
+}
+.sec3 p {
+  font-size: 15px;
+  width: 70%;
+  color: #545454;
+}
+.sec3 img {
+  width: 15%;
+  height: 15%;
+  margin-right: 30px;
+}
+
+/* SEC4 */
+.sec4 {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.sec4 img {
+  width: 100%;
+  height: 100%;
+}
+.sec4 h1 {
+  font-size: 55px;
+}
+.sec4 p {
+  font-size: 23px;
+}
+.sec4 button {
+  background-color: black;
+  width: 30%;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.span1 {
+  font-size: 30px;
+  position: relative;
+  left: 55%;
+}
+.span2 {
+  font-size: 30px;
+  position: relative;
+  left: 37%;
+}
+/* SEC5 */
+.sec5 {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.sec5 h1 {
+  font-size: 55px;
+}
+.sec5 h2 {
+  font-size: 30px;
+}
+.sec5 p {
+  font-size: 16px;
+  width: 75%;
+}
+.sec5 img {
+  width: 100%;
+  height: 80%;
+}
+.sec5 i {
+  font-size: 20px;
+  border: 1px black solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-right: 30px;
+}
+
+/* SEC6 */
+.sec6 .img1 img {
+  /* width: 100%; */
+  height: 85%;
+}
+.person1 {
+  background-color: #1f1f1f;
+  color: white;
+  width: 75%;
+  height: 450px;
+  position: relative;
+  top: 50px;
+  right: 12%;
+  /* gap: 0px; */
+  padding: 20px;
+  opacity: 0px;
+}
+.person2 {
+  background-color: #1f1f1f;
+
+  color: white;
+  width: 75%;
+  height: 450px;
+  position: relative;
+  top: 50px;
+  right: 5%;
+  /* gap: 0px; */
+  padding: 20px;
+  opacity: 0px;
+}
+.sec6 span {
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+}
+.sec6 p {
+  font-size: 20px;
+  width: 90%;
+}
+.sec6 h5 {
+  color: #929292;
+}
+.sec6 h1 {
+  font-size: 50px;
+  width: 55%;
+  position: relative;
+
+  left: 35%;
+}
+/* SEC7 */
+/* SEC7 FORM */
+/* From Uiverse.io by andrew-demchenk0 */
+
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 22%;
+  width: 60%;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 4px 4px var(--main-color);
+}
+
+.subscribe-input {
+  width: 200%;
+  height: 150%;
+  padding: 5px 10px;
+  border: 2px solid var(--main-color);
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--font-color);
+  background: white;
+}
+
+.subscribe-btn {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  right: 15%;
+  top: 25%;
+  border: 2px solid var(--main-focus);
+  border-radius: 0 5px 5px 0;
+  background-color: black;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+.subscribe-input:focus {
+  outline: none;
+  border: 2px solid var(--main-focus);
+  border-right: 0;
+}
+/* SEC7 Content */
+.sec7 h1 {
+  width: 50%;
+  font-size: 50px;
+  position: relative;
+  left: 22%;
+}
+
+.sec7 p {
+  width: 50%;
+  font-size: 20px;
+  position: relative;
+  left: 22%;
+  color: #929292;
+}
+/* FOOTER */
+.fot a,
+h1,
+p {
+  color: #929292;
+}
+.fot i {
+  color: white;
+}
+footer h6 {
+  color: white;
+}
+footer {
+  background-color: #1f1f1f;
+}
+footer img {
+  color: white;
+}
+
+/* MEDIA QUERY */
+/* SMALL PHONES */
+@media screen and (max-width: 480px) {
+  /* NAV */
+  nav {
+    width: 112%;
+  }
+  /* SEC2 */
+  .sec2 h1 {
+    font-size: 50px;
+  }
+  .sec2 img {
+    width: 100%;
+  }
+  .sec2 button {
+    height: 40%;
+  }
+  .sec2 .project2 h2 {
+    font-size: 20px;
+  }
+  .sec2 .project2 div {
+    position: relative;
+    bottom: 150px;
+    width: 30%;
+  }
+
+  /* SEC4 */
+  .sec4 .span1 {
+    position: relative;
+    left: 50px;
+  }
+  .sec4 .span2 {
+    position: relative;
+    left: 240px;
+  }
+  /* SEC6 */
+  .sec6 img {
+    width: 70%;
+  }
+  .sec6 h1 {
+    font-size: 15px;
+    width: 40%;
+    height: 50%;
+    position: relative;
+    top: -220px;
+    left: 250px;
+  }
+  .person1 {
+    width: 40%;
+    height: 50%;
+    position: relative;
+    top: -380px;
+    left: 90px;
+  }
+  .person1 span {
+    font-size: 10px;
+  }
+  .person1 p {
+    font-size: 10px;
+  }
+  .person1 h4 {
+    font-size: 10px;
+  }
+  .person1 h5 {
+    font-size: 10px;
+  }
+
+  .person2 {
+    width: 40%;
+    height: 55%;
+    position: relative;
+    top: -380px;
+    left: 110px;
+  }
+  .person2 span {
+    font-size: 10px;
+  }
+  .person2 p {
+    font-size: 10px;
+  }
+  .person2 h4 {
+    font-size: 10px;
+  }
+  .person2 h5 {
+    font-size: 10px;
+  }
+  /* SEC7 */
+  .sec7 h1 {
+    font-size: 30px;
+    width: 70%;
+  }
+  .sec7 p {
+    font-size: 20px;
+    width: 70%;
+  }
+  .sec7 input {
+    width: 1000px;
+    height: 150%;
+  }
+  .subscribe-btn {
+    position: relative;
+    top: 70%;
+    width: 100%;
+    height: 70%;
+    right: 30%;
+  }
+  /* Footer */
+  footer {
+    width: 112%;
+  }
+}
+
+/* TABLET */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* SEC2 */
+  .sec2 h1 {
+    font-size: 40px;
+  }
+  .sec2 button {
+    height: 30%;
+  }
+  .project2 h2 {
+    font-size: 40px;
+    position: relative;
+    bottom: 150px;
+  }
+  .project2 h4 {
+    font-size: 20px;
+    position: relative;
+    bottom: 150px;
+  }
+  /* SEC4 */
+  .span1 {
+    left: 47%;
+  }
+  .span2 {
+    left: 25%;
+  }
+  /* SEC6 */
+  .sec6 {
+    position: relative;
+    top: -100px;
+  }
+  .sec6 img {
+    width: 250%;
+    /* height: 100%; */
+  }
+  .sec6 h1 {
+    font-size: 25px;
+    width: 70%;
+    height: 50%;
+    position: relative;
+    /* top: -0px; */
+    left: 150px;
+  }
+  .person1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -120px;
+    left: -30px;
+  }
+  .person1 img {
+    width: 100%;
+  }
+  .person1 span {
+    font-size: 15px;
+  }
+  .person1 p {
+    font-size: 15px;
+  }
+  .person1 h4 {
+    font-size: 15px;
+  }
+  .person1 h5 {
+    font-size: 15px;
+  }
+
+  .person2 {
+    width: 100%;
+    height: 30%;
+    position: relative;
+    top: -120px;
+    left: 11px;
+  }
+  .person2 img {
+    width: 100%;
+  }
+  .person2 span {
+    font-size: 15px;
+  }
+  .person2 p {
+    font-size: 15px;
+  }
+  .person2 h4 {
+    font-size: 15px;
+  }
+  .person2 h5 {
+    font-size: 15px;
+  }
+  /* SEC7 */
+  .sec7 h1 {
+    font-size: 20px;
+    width: 70%;
+  }
+  .sec7 p {
+    font-size: 15px;
+    width: 70%;
+  }
+  .sec7 input {
+    width: 10000px;
+    height: 150%;
+  }
+  .subscribe-btn {
+    position: relative;
+    top: 70%;
+    width: 100%;
+    height: 70%;
+    right: 15%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* SEC2 */
+  .sec2 img {
+    width: 100%;
+    height: 100%;
+  }
+  .sec2 h1 {
+    font-size: 85px;
+  }
+  .sec2 p {
+    font-size: 20px;
+  }
+  .sec2 button {
+    height: 20%;
+  }
+  .project2 h2 {
+    font-size: 40px;
+    position: relative;
+    bottom: 50px;
+  }
+  .project2 h4 {
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+  }
+  /* SEC4 */
+  .span1 {
+    left: 40%;
+  }
+  .span2 {
+    left: 15%;
+  }
+  /* SEC6 */
+  .sec6 {
+    position: relative;
+    top: -100px;
+  }
+  .sec6 img {
+    /* width: 100%;
+    height: 100%; */
+  }
+  .sec6 h1 {
+    font-size: 30px;
+    width: 40%;
+    height: 50%;
+    position: relative;
+    /* top: -0px; */
+    left: 400px;
+  }
+  .person1 {
+    /* width: 100%;
+    height: 100%; */
+    position: relative;
+    top: -180px;
+    left: 1px;
+  }
+  .person1 span {
+    font-size: 15px;
+  }
+  .person1 p {
+    font-size: 15px;
+  }
+  .person1 h4 {
+    font-size: 15px;
+  }
+  .person1 h5 {
+    font-size: 15px;
+  }
+
+  .person2 {
+    /* width: 100%;
+    height: 30%; */
+    position: relative;
+    top: -180px;
+    left: 25px;
+  }
+  .person2 span {
+    font-size: 15px;
+  }
+  .person2 p {
+    font-size: 15px;
+  }
+  .person2 h4 {
+    font-size: 15px;
+  }
+  .person2 h5 {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .sec2 img {
+    width: 100%;
+  }
+}
